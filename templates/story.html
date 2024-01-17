@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Story{% endblock %}
+
+{% block header %}
+<h1>Your Version of <span id="title">{{ title }}</span></h1>
+{% endblock %}
+
+{% block content %}
+<p>{{ text }}</p>
+{% endblock %}

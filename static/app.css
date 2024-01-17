@@ -1,0 +1,96 @@
+body {
+    font-size: 18px;
+    background-color: rgba(33, 43, 77, 1);
+    color:rgba(255, 114, 109, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 6rem
+}
+
+#title {
+    color:rgba(47, 189, 162, 1) ;
+}
+
+p,
+select,
+button,
+input {
+    font-size: 2rem;
+}
+ /* app.css */
+/* Other existing styles */
+
+/* Styles for the button */
+.button {
+    background-color: rgb(29, 51, 73);
+    color:rgba(255, 114, 109, 1);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(29, 51, 73, 0.8);
+    color: rgba(255, 114, 109, 1);
+}
+
+/* Styles for the select */
+.select {
+    background-color: rgb(29, 51, 73);
+    color: rgba(255, 114, 109, 1);
+    padding: 10px;
+    border: 1px solid rgba(255, 114, 109, 1);
+    border-radius: 6px;
+}
+/* Styles for the select and dropdown arrow within a form */
+form .select {
+    position: relative;
+    display: inline-block;
+}
+
+form .select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    padding: 10px;
+    border: 1px solid rgba(255, 114, 109, 1);
+    border-radius: 6px;
+    width: 100%;
+}
+
+form .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: rgba(255, 114, 109, 1);
+    pointer-events: none;
+}
+
+
+
+/* Styles for input tags */
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgba(255, 114, 109, 1);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Optional: Hover and focus styles for input tags */
+input:hover,
+input:focus {
+    border-color: rgba(255, 114, 109, 1) ; /* Change to your preferred focus color */
+    outline: none;
+}
